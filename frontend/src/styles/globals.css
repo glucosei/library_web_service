@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Apple SD Gothic Neo, sans-serif; }
+main { max-width: 960px; margin: 0 auto; padding: 24px; }
+input, button { font-size: 16px; }
+ul { padding-left: 20px; }
+
+
+.container { max-width: 640px; margin: 40px auto; padding: 20px; }
+.row { display: flex; gap: 8px; margin-bottom: 12px; }
+button { padding: 8px 12px; cursor: pointer; }
