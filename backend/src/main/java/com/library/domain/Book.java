@@ -20,6 +20,9 @@ public class Book extends BaseEntity {
     @Column(nullable = false, length = 30)
     private String title;
 
+    @Column(nullable = false, length = 30)
+    private String author;
+
     @Column(columnDefinition = "TEXT", nullable = true)
     private String info;
 
